@@ -1,3 +1,6 @@
 @import "tailwindcss";
 
 
+.doesntmatter {
+    background-color: red;
+}
