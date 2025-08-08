@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"; 
+import Image from "next/image";
 
 export default function about() {
   
@@ -65,20 +66,27 @@ export default function about() {
             </div>
             </div>
         <div className="grid gap-[30px] " style={{gridTemplateColumns: "385px", gridTemplateRows: "235px 235px"}}>
-            <div className={`group p-[30px] bg-[#F0F0F0] rounded-[50px] shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)]`}>
-            <div className="flex flex-col gap-y-[5px]">
-                <h2 className="text-[48px] font-bold [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.14rem]">philosophy</h2>
-                <p className="text-[24px] font-medium [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.08rem] leading-[1]">
-                build fast, ship often, keep it minimal. focus on real users,
-                performance, and clean design.
-                </p>
+            <div className={`group bg-[#F0F0F0] rounded-[50px] shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)]`}>
+            <div className=" p-[30px] flex flex-col gap-y-[20px]">
+                <div className="flex flex-row items-center gap-x-[10px]">
+                    <div className="bg-[#F0F0F0] rounded-[50px] p-1  shadow-[8px_8px_16px_0_rgba(160,160,160,0.6),-8px_-8px_16px_0_rgba(255,255,255,1)] min-w-[84px] min-h-[84px] flex items-center justify-center">
+                        <Image src="/rinosohnehintergrund.png" alt="rinosohnehintergrund" width={80} height={80} className="object-contain"/>
+                    </div>
+                    <p className="text-[24px] font-medium [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.1rem] leading-[1.0]">3 years of e-commerce experience at rinos bikes</p>
+                </div>
+                <div className="flex flex-row items-center gap-x-[10px]">
+                    <div className="bg-[#F0F0F0] rounded-[50px] p-1 transition-shadow duration-300 shadow-[8px_8px_16px_0_rgba(160,160,160,0.6),-8px_-8px_16px_0_rgba(255,255,255,1)] min-w-[84px] min-h-[84px] flex items-center justify-center">
+                        <p className="text-[24px] font-medium [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.1rem] leading-[1.0]">$100</p>
+                    </div>
+                    <p className="text-[24px] font-medium [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.1rem] leading-[1.0]">3rd year of studying accounting</p>
+                </div>
             </div>
             </div>
             <div className={`p-[30px] bg-[#F0F0F0] rounded-[50px] transition-shadow shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)]`}>
             <div className="flex flex-col gap-y-[5px]">
-                <h2 className="text-[48px] font-bold [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.14rem]">present</h2>
+                <h2 className="text-[48px] font-bold [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.14rem]">tech stack</h2>
                 <p className="text-[24px] font-medium [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.08rem] leading-[1]">
-                currently building some cool projects and learning some new languages and technologies. open to take on new challenges.
+                    typescript, next.js, tailwind, shadcn, postgres, convex, clerk, vercel, better-auth, stripe, aws and more...
                 </p>
             </div>
             </div>
