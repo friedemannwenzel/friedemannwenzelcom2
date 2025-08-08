@@ -95,9 +95,9 @@ export default function about() {
       </div>
 
       {/* Mobile Layout */}
-      <div className="md:hidden flex flex-col gap-6 w-full max-w-sm px-4 py-8 min-h-screen justify-center">
+      <div className="md:hidden flex flex-col gap-6 w-full max-w-sm px-4 pt-16 pb-8 min-h-screen">
 
-        <Link href="/" className={`mt-20 bg-[#F0F0F0] rounded-[50px] transition-shadow shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)] h-16`}>
+        <Link href="/" className={`bg-[#F0F0F0] rounded-[50px] transition-shadow shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)] h-16`}>
           <div className="flex flex-col items-center justify-center h-full">
             <p className="text-4xl font-bold [text-shadow:3px_3px_3px_rgba(160,160,160,0.6),-3px_-3px_3px_rgba(255,255,255,1)] tracking-[-0.14rem]">about</p>
           </div>
