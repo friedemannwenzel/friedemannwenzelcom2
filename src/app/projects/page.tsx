@@ -8,7 +8,7 @@ export default function Home() {
   
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen md:h-screen">
       {/* Desktop Layout */}
       <div className="hidden md:grid gap-[30px] w-[930px] h-[630px]" style={{gridTemplateColumns: "100px 800px ", gridTemplateRows: "100px 235px 235px"}}>
         <Link href="/" className={`row-span-3 group bg-[#F0F0F0] rounded-[50px] transition-all duration-300 [--og:0] [--ow:0] [--ig:0.6] [--iw:1] hover:[--og:0.3] hover:[--ow:1] hover:[--ig:0] hover:[--iw:0] shadow-[8px_8px_16px_0_rgba(160,160,160,var(--og)),-8px_-8px_16px_0_rgba(255,255,255,var(--ow)),inset_16px_16px_16px_0_rgba(160,160,160,var(--ig)),inset_-16px_-16px_16px_0_rgba(255,255,255,var(--iw))]`}>
@@ -79,7 +79,7 @@ export default function Home() {
       </div>
 
       {/* Mobile Layout */}
-      <div className="md:hidden flex flex-col gap-6 w-full max-w-sm px-4">
+      <div className="md:hidden flex flex-col gap-6 w-full max-w-sm px-4 py-8 min-h-screen justify-center">
 
         <Link href="/" className={`mt-28 bg-[#F0F0F0] rounded-[50px] transition-shadow shadow-[inset_16px_16px_16px_0_rgba(160,160,160,0.6),inset_-16px_-16px_16px_0_rgba(255,255,255,1)] h-16`}>
           <div className="flex flex-col items-center justify-center h-full">
